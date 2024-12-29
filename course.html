@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card-deck.css">
+     <!-- fontawesome CSS -->
+ <link rel="stylesheet" href="css/all.min.css">
+ <!-- /fontawesome css -->
+
+  
+<style>
+  body  {
+    font-family: 'Segoe UI', Tahoma, Verdana;
+    
+    background-color: #ebf8ff;
+}
+
+h2 {
+    color: #0f0f0f;
+    text-align: center;
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review-card {
+    background-color: #d47545;
+    box-shadow: 0 4px 8px rgba(22, 21, 21, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    max-width: 100%;
+    transition: transform 0.3s;
+    padding:6px;
+}
+
+.review-card:hover {
+    transform: scale(1.05);
+}
+
+.review-content {
+    padding: 15px;
+}
+
+.customer-name {
+    font-weight: bold;
+    color: #0b0a0a;
+}
+
+.feedback-text {
+    margin-top: 10px;
+    color: #110f0f;
+}
+
+.rating{
+    color:#FFD700;
+    margin-bottom:5px;
+    font-size: 30px;
+}
+
+img {
+  padding-left: 31px;
+  display: block;
+    border: 0;
+    width: auto;
+    height: 170px;
+}
+    video{
+        height: 100px;
+        width:190px;
+       position: absolute;
+       margin-top:-50px;
+ }
+
+      .navbar video{
+        height: 73px;
+        width:230px;
+       position: absolute;
+       margin-top:-38px;
+       margin-bottom: 10px;
+       
+    }
+    .navbar-nav
+{
+  font-size: 16px;
+  height: 55px;
+}
+</style>
+  </head>
+<body>
+      
+  
+<!-- start navbar -->
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #000;">
+  <div class="container-fluid">
+    <a href="home.html">
+       <video playsinline autoplay muted>
+        <source src="video/studyspace_home_logo.mp4">
+      </video></a>
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav custom-nav pl-5">
+      <ul class="navbar-nav custom-nav pl-5">
+        <ul class="navbar-nav custom-nav pl-5">
+          <ul class="navbar-nav custom-nav pl-5">
+            <ul class="navbar-nav custom-nav pl-5">
+              <ul class="navbar-nav custom-nav pl-5">
+                <ul class="navbar-nav custom-nav pl-5">
+          <li class="nav-item custom-nav-item"><a href="home.html" class="nav-link">HOME</a></li>
+          <li class="nav-item dropdown  custom-nav-item pl-5 pr-5">
+            <a class="nav-link dropdown-toggle" href="courses.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              COURSES
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="programming.html">PROGRAMMING</a></li>
+              <li><a class="dropdown-item" href="software development.html">SOFTWARE DEVELOPMENT</a></li>
+              <li><a class="dropdown-item" href="digital marketing.html">DIGITAL MARKETING</a></li>
+              <li><a class="dropdown-item" href="soft skills.html">SOFT SKILLS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item custom-nav-item  pl-3 pr-3"><a href="profile.php" class="nav-link">MY PROFILE</a></li>
+          <li class="nav-item custom-nav-item  pl-3 pr-3"><a href="feedback.html" class="nav-link">FEEDBACK</a></li>
+          <li class="nav-item custom-nav-item  pl-3 pr-3"><a href="contact.php" class="nav-link">CONTACT US</a></li>
+        </ul>
+</div>
+  </div>
+</nav>
+ <!-- end navbar -->
+
+    <br><br><br>
+  <!-- text banner -->
+  <div class="container-fluid bg-danger txt-banner">
+    <div class="row bottom-banner">  
+    <div class="col-sm">
+        <div class="text-center">
+          <h5><i class="fa-solid fa-user mr-3"></i>Expert Instructor</h5>
+    </div>
+    
+    </div>
+    </div>
+</div>
+<br>
+    <!-- /text banner -->
+ 
+<!-- expert review -->
+<div class='reviews-container'>
+  <div class='review-card'>
+      <div class='review-content'>
+        <div class="text-center">
+          <img src="images/kim limy seo.png">
+          <p class='customer-name'><b>KIM LIMY</b></p></div>
+          <p class='feedback-text'>Hi I have 10+ years of industry experience with digital marketing.
+             Influence in  Google Analytics, Google AdWords, current social media outlets, paid social media advertising,SEO,Facebook Marketing, community management, and email marketing.</p>
+      </div>
+  </div>
+
+
+  <div class='review-card'>
+      <div class='review-content'>
+        <div class="text-center">
+          <img src="images/ardit sulce(python).jpg">
+          <p class='customer-name'><b>ARDIT SULCE</b></p></div>
+          <p class='feedback-text'>As a self-taught professional I have more than 20,000 students on StudySpace is the best proof for that.I have best experience in web development on the backend (PHP with Laravel, NodeJS, Python) I also became more and more of a frontend developer using modern frameworks like React, Angular or VueJS in a lot of projects.</p>
+      </div>
+  </div>
+
+
+  <div class='review-card'>
+      <div class='review-content'>
+        <div class="text-center">
+          <img src="images/Alexis Gamliel(cm).jpg">
+          <p class='customer-name'><b>ALEXIS GAMLIEL</b></p></div>
+          <p class='feedback-text'>I have a rich experience in teaching coding, extending my expertise to students from around the globe, including those from the UK and US  in subjects including (HTML, CSS, Angular JS, Jquery, JS),(Java, Python, PHP, Ruby, Node Js), Data Structure and block-based coding languages like Scratch and Thunkable.</p>
+      </div>
+  </div>
+
+
+<div class='review-card'>
+<div class='review-content'>
+  <div class="text-center">
+<img src="images/Wale Oladipo (PD).jpg">
+<p class='customer-name'><b>WALE OLADIPO</b></p></div>
+<p class='feedback-text'>Experienced Business Analyst with over 15 years of experience in Supply Chain Inventory Management Distribution. Excellent reputation for resolving problems and finding creative solutions.Proficient in SQL Server, core-certified in alteryx, clear understanding of SQL, spreadsheets and databases.</p>
+</div>
+</div>
+</div>
+
+<!-- /expert review -->
+
+
+
+ <!-- fontawesome JS -->
+ <script src="js/all.min.js"></script> 
+ <!-- /fontawesome JS -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

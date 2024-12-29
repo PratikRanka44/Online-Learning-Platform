@@ -1,0 +1,87 @@
+@media screen and (min-width: 0px) and (max-width: 700px) { 
+.menu-toggle {
+    display:flex;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-left: 178px;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.visme-container{
+width: 500px;
+}
+
+.body .html{
+    background-color: #198050;
+}
+
+.col-4 {
+    width: 1000px;
+    margin-top: -531px;
+    background-color: #0a3823;
+    height: 524px;
+    margin-left: 345px;
+    position: relative;
+}
+
+.visme-container{
+min-width: 776px;
+}
+
+element.style {
+    border: none;
+    max-width: 100vw;
+    min-height: 523.314px;
+    width: 100%;
+    height: 100%;
+    min-width: 700px;
+}
+
+ .heading-2 {
+        color: black;
+        text-align: center;
+        margin-left: 232px;
+        width: 355px;
+    }
+
+    .p2 {
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 14px;
+        margin-left: 257px;
+        width: 299px;
+    }
+
+    .review-card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(22, 21, 21, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+        width: 153px;
+        height: 615px;
+        max-width: 100%;
+        transition: transform 0.3s;
+        padding: 6px;
+        margin-left: 58px;
+    }
+
+
+    .green-sec {
+        background-color: #198050;
+        background-size: 627px;
+        height: 80px;
+        margin-top: 226px;
+        width: 710px;
+    }    
+
+
+
+
+
+
+}
