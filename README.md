@@ -21,15 +21,16 @@ Deployment: Local System
 Follow these steps to set up the project locally:
 
 Clone the Repository:
--------------------------------------------------------------------------------------------
-Install Dependencies: Ensure Python and pip are installed on your system.
-pip install -r requirements.txt
+
 -------------------------------------------------------------------------------------------
 Set Up Database:
 Update the settings.py file with your database credentials.
 -------------------------------------------------------------------------------------------
-Run migrations:
-python manage.py makemigrations
+Run the code using localhost:
+Visit http://127.0.0.1:8000/ in your browser.
+-------------------------------------------------------------------------------------------
+
+
 python manage.py migrate
 -------------------------------------------------------------------------------------------
 Run the Development Server:
