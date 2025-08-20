@@ -1,33 +1,30 @@
+# Online Learning Platform (StudySpace)
 
-StudySpace
+**StudySpace** is an interactive web-based learning platform offering course browsing, secure access, and progress tracking through clean and responsive UI.
 
-StudySpace is an online learning platform designed to provide an engaging, accessible, and user-friendly environment for learners and educators. It offers features to manage courses, track progress, and foster an interactive learning experience.
+##  Features
 
-🚀 Features
-User-Friendly Interface: Intuitive and easy-to-navigate design.
-Course Management: Create, update, and manage courses seamlessly.
-Progress Tracking: Enables users to monitor their learning journey.
-Interactive Learning: Supports quizzes, assignments, and discussion forums.
-Secure Authentication: User registration and login with secure password storage.
-Responsive Design: Optimized for desktops, tablets, and mobile devices.
-🛠️ Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: Php
-Database: MySQL
-Version Control: Git and GitHub
-Deployment: Local System
+- **User Authentication**: Secure login/register system using PHP and MySQL backend.
+- **Course Management**: Browse and access course content including topics like programming, software development, and digital skills.
+- **Progress Tracking**: Progress tracking across course modules to enhance learning continuity.
+- **Responsive Design**: Optimized layout for desktops, tablets, and mobile devices.
+- **Interactive Learning Tools**: Include quizzes, assignments, discussions, or embedded media as relevant.
+
+*(Tailor this section to include features like quiz modules, forums, feedback forms, etc., based on what’s built.)*
+
+---
+
+##  Technologies Used
+
+| Layer      | Technologies                          |
+|------------|---------------------------------------|
+| Frontend   | HTML, CSS, JavaScript                 |
+| Backend    | PHP                                   |
+| Database   | MySQL                                 |
+| Version Control | Git & GitHub                    |
+| Deployment | Local / LAMP stack or similar         |
 
 
-🏗️ Installation & Setup
-Follow these steps to set up the project locally:
 
-Clone the Repository:
--------------------------------------------------------------------------------------------
-Set Up Database:
-Update the settings.py file with your database credentials.
--------------------------------------------------------------------------------------------
-Run the code using localhost:
-Visit http://127.0.0.1:8000/ in your browser.
-------------------------------------------------------------------------------------------
-
+##  Project Structure
 
