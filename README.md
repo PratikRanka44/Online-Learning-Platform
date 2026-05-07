@@ -3,7 +3,7 @@
 **StudySpace** is an interactive web-based learning platform offering course browsing, secure access, and progress tracking through clean and responsive UI.
 
 ##  Features
-
+  
 - **User Authentication**: Secure login/register system using PHP and MySQL backend.
 - **Course Management**: Browse and access course content including topics like programming, software development, and digital skills.
 - **Progress Tracking**: Progress tracking across course modules to enhance learning continuity.
